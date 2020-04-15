@@ -159,42 +159,30 @@
                                 <input name="sales_availability[]" type="radio" value="Available"> 
                                 Available
                             </label>
-
                             <br/>
-
                             <label>
                                 <input name="sales_availability[]" type="radio" value="On Hold"> 
                                 On Hold
                             </label>
-
                             <br/>
-
                             <label>
                                 <input name="sales_availability[]" type="radio" value="Under Offer"> 
                                 Under Offer
                             </label>
-                           
                             <br/>
-
                             <label>
                                 <input name="sales_availability[]" type="radio" value="Sold">
                                 Sold
                             </label>
-
                             <br/>
-
                             <button type="sumbit" name="btn-save">
                                 <strong>
                                     Update
                                 </strong>
                             </button>
-
                             <br/>
-
                             Key Tag: 
-                            
                             <br/>
-
                             <input name="key_tag" type="text" id="key_tag">
                             </td>
                         </tr>
