@@ -143,19 +143,12 @@
                         <tr>
                             <td colspan="3" >
                                 Address Line 1:
-                                  
                                     <input style="margin-top: 12px; margin-bottom: 6px" type="text" name="Address1" class="form-control">
-                                  
                                 Address Line 2: 
-                                    <br/>
                                     <input style="margin-top: 3px; margin-bottom: 6px" type="text" name="Address2" class="form-control">
-                                  
                                 Address Line 3: 
-                                   
                                     <input style="margin-top: 3px; margin-bottom: 6px" type="text" name="Address3" class="form-control">
-                                   
                                 Postcode: 
-                                    <br/>
                                     <input style="margin-top: 3px; margin-bottom: 6px" type="text" name="postcode"  class="form-control">
                             </td>
 
