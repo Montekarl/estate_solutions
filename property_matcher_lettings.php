@@ -193,6 +193,15 @@ if($result->num_rows >0){
             $viewingres="Good Afternoon ".$firstname.", I hope you're well. As discussed I've booked an appointment to see the property at am/pm today at the following address. See you there.";
         }?>
         <h1>5E5427</h1>
+<pre>
+Sunny Bank
+https://www.youtube.com/watch?v=_3JELCsKOvY
+
+Selhurst Road
+https://www.youtube.com/watch?v=2b7iVZpv4UE
+</pre>
+
+       
 
         <form name="form1">
             <select style="background-color: transparent; font-size: 10px; color: rgb(0, 102, 153); font-family: verdana;" name="menu">
