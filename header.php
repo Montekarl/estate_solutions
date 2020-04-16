@@ -150,8 +150,8 @@
                     </li>
 
                     <li>
-                        <a target="_blank" href="https://www.google.com/search?q=council+tax+band+a+croydon&rlz=1C1CHBF_en-GBGB890GB890&oq=band+A+croydon+&aqs=chrome.1.69i57j0l6.11506j0j7&sourceid=chrome&ie=UTF-8">
-                            Council Tax Values
+                        <a target="_blank" href="https://www.croydon.gov.uk/advice/counciltax/council-tax-bands-and-charges">
+                            Council Tax Charges
                         </a>
                     </li>
 
