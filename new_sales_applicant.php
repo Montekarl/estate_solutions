@@ -115,19 +115,16 @@ if(isset($_POST['btn-save']))
         <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
-        
-        <div id="header">
-        <div id="content">
-            <label>Add New Sales Applicant</label>
-        </div>
-        </div>
-        
         <div id="body">
-            <div id="content">            
+            <div id="content">    
                 <form method="post">
+                
                     <?php 
                         include "header.php";
                     ?>
+                    <h2 style="text-align: center">
+                        Add New Sales Applicant
+                    </h2>      
                     <div class ="container" style="width:900px; text-align:center">
                         <div class="table-responsive">
                             <div class="search-table-outter wrapper">

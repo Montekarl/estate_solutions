@@ -139,8 +139,10 @@ if(isset($_POST['btn-save']))
                 <div class="table-responsive">
                     <table class="table table-bordered">
                         <tr>
-                            <th colspan="4"> 
-                                Location 
+                            <th scope="col" colspan="4" style="background-color:firebrick;"> 
+                                <h4 style="color:gold">    
+                                    Location
+                                </h4>
                             </th>
                         </tr>
 
@@ -199,8 +201,10 @@ if(isset($_POST['btn-save']))
                         </tr>
 
                         <tr>
-                            <th colspan="4">
-                                Property Information
+                            <th scope="col" colspan="4" style="background-color:firebrick;"> 
+                                <h4 style="color:gold">    
+                                    Property Information
+                                </h4>
                             </th>
                         </tr>
 
@@ -464,7 +468,8 @@ if(isset($_POST['btn-save']))
                                 </select>
                             </td>
 
-                            <td>Students Allowed: <br>
+                            <td>
+                                Students Allowed: <br>
                                 <select id="students_allowed" name="students_allowed" class="form-control">
                                     <option></option>
                                     <option value="yes">Yes</option>
@@ -473,6 +478,14 @@ if(isset($_POST['btn-save']))
                             </td>
                         </tr>
                        
+                        <tr>
+                            <th scope="col" colspan="4" style="background-color:firebrick;"> 
+                                <h4 style="color:gold">    
+                                    Features
+                                </h4>
+                            </th>
+                        </tr>
+
                         <tr>
                             <td colspan="2">
                                 Feature 1: <input style="width:100%; margin-top: 12px; margin-bottom: 6px" type="text" name="feature_1" class="form-control"/><br>
@@ -490,9 +503,13 @@ if(isset($_POST['btn-save']))
                             </td>
                         </tr>
 
-                        <th colspan="4">
-                            Landord Details:
-                        </th>
+                        <tr>
+                            <th scope="col" colspan="4" style="background-color:firebrick;"> 
+                                <h4 style="color:gold">    
+                                    Landlord Details
+                                </h4>
+                            </th>
+                        </tr>
 
                         <tr>
                             <td>First Name: <br>
@@ -513,8 +530,10 @@ if(isset($_POST['btn-save']))
                         </tr>
 
                         <tr>
-                            <th colspan="4">
-                                Access Through:
+                            <th scope="col" colspan="4" style="background-color:firebrick;"> 
+                                <h4 style="color:gold">    
+                                    Access Through
+                                </h4>
                             </th>
                         </tr>
 
@@ -552,10 +571,13 @@ if(isset($_POST['btn-save']))
                         </script>
 
                         <tr>
-                            <th class="labelCol3" colspan="4">
-                                Parking:<br>
+                            <th scope="col" colspan="4" style="background-color:firebrick;"> 
+                                <h4 style="color:gold">    
+                                    Parking
+                                </h4>
                             </th>
                         </tr>
+
                         <tr>
                             <td colspan="4" class="dataCol3">
                                 <table width="100%" cellpadding="0" cellspacing="0">
@@ -639,9 +661,10 @@ if(isset($_POST['btn-save']))
                         </script>
 
                         <tr>
-                            <th class="labelCol3" colspan="4">
-                                Outside Space:
-                                <br>                           
+                            <th scope="col" colspan="4" style="background-color:firebrick;"> 
+                                <h4 style="color:gold">    
+                                    Outside Space
+                                </h4>
                             </th>
                         </tr>
 
@@ -708,11 +731,12 @@ if(isset($_POST['btn-save']))
                                             </label>
                                         </td>
                                     </tr>
+
                                     <tr>
                                         <div style="text-align:center">
                                             <th colspan="4" >
-                                                <button type="submit" name="btn-save" class="form-control">
-                                                    <strong>
+                                                <button type="submit" name="btn-save" class="form-control" style="background-color: goldenrod;">
+                                                    <strong style="color:indigo">
                                                         SAVE
                                                     </strong>
                                                 </button>
@@ -722,6 +746,7 @@ if(isset($_POST['btn-save']))
                                 </tbody>
                             </table>
                         </td>
+                        
                         <script type = "text/javascript">
                             var isChecked = false;
                             function allSelected4()
